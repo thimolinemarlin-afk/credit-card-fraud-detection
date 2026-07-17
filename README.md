@@ -1,77 +1,128 @@
-# Credit Card Fraud Detection
+# 💳 Credit Card Fraud Detection
 
-A machine learning project that detects fraudulent credit card transactions using classification algorithms.
+A Machine Learning-based web application that detects fraudulent credit card transactions using classification algorithms. This project preprocesses transaction data, trains a machine learning model, and provides a simple web interface for fraud prediction.
 
-## Features
-- Data preprocessing
-- Fraud detection using Machine Learning
-- Model training and evaluation
-- User-friendly web interface
+---
 
-## Technologies Used
+## 🚀 Features
+
+- 🔹 Data preprocessing and cleaning
+- 🔹 Fraud detection using Machine Learning
+- 🔹 Model training and evaluation
+- 🔹 Interactive web interface built with Flask
+- 🔹 Upload transaction data for prediction
+- 🔹 Performance visualization
+
+---
+
+## 🛠️ Technologies Used
+
 - Python
 - Flask
-- HTML
-- CSS
+- HTML5
+- CSS3
 - Bootstrap
-- Scikit-learn
+- JavaScript
 - Pandas
 - NumPy
+- Scikit-learn
+- Jupyter Notebook
 
-## Project Structure
-credit card fraud detectin using AI PROEJCT/
-│
-├── app.py
-├── credit.pkl
-├── Accuracy.txt
-├── requirements.txt
-├── upload.csv
-│
-├── model/
-│   ├── Credit Card Fraud.csv
-│   ├── credit.pkl
-│   ├── credit_card_detection.ipynb
-│   └── .ipynb_checkpoints/
+---
+
+## 📂 Project Structure
+
+```text
+credit-card-fraud-detection/
+│── app.py
+│── requirements.txt
+│── credit.pkl
+│── Credit Card Fraud.csv
+│── upload.csv
+│── credit_card_detection.ipynb
 │
 ├── templates/
 │   ├── index.html
 │   ├── login.html
 │   ├── upload.html
 │   ├── prediction.html
-│   ├── preview.html
 │   ├── chart.html
 │   └── performance.html
 │
 ├── static/
 │   ├── css/
-│   │   ├── style.css
-│   │   ├── styles.css
-│   │   ├── styless.css
-│   │   ├── bootstrap.min.css
-│   │   ├── aos.css
-│   │   ├── jquery-ui.css
-│   │   └── ...other CSS files
-│   │
 │   ├── js/
-│   │   ├── main.js
-│   │   ├── bootstrap.min.js
-│   │   ├── jquery-3.3.1.min.js
-│   │   ├── aos.js
-│   │   └── ...other JS files
-│   │
 │   ├── images/
-│   │   ├── card.jpg
-│   │   ├── card1.jpg
-│   │   ├── hero_1.jpg
-│   │   ├── hero_2.jpg
-│   │   └── ...other images
-│   │
-│   ├── fonts/
-│   ├── scss/
-│   └── download.png
+│   └── fonts/
 │
-├── test_data/
-│   └── Credit Card Fraud.csv
-│
-└── .ipynb_checkpoints/
-    (Jupyter notebook checkpoint files)
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/thimolinemarlin-afk/credit-card-fraud-detection.git
+```
+
+2. Navigate to the project folder
+
+```bash
+cd credit-card-fraud-detection
+```
+
+3. Install the required packages
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the application
+
+```bash
+python app.py
+```
+
+---
+
+## 📊 Model
+
+The project uses a Machine Learning classification model to distinguish between genuine and fraudulent credit card transactions after preprocessing the dataset.
+
+---
+
+## 🎯 Future Improvements
+
+- Improve prediction accuracy
+- Deploy the application online
+- Add user authentication
+- Integrate real-time transaction monitoring
+- Enhance UI/UX
+
+---
+
+## 📸 Screenshots
+
+You can add screenshots of the application here.
+
+Example:
+
+- Home Page
+- Login Page
+- Prediction Page
+- Performance Graph
+
+---
+
+## 👨‍💻 Author
+
+**Marlin**
+
+GitHub: https://github.com/thimolinemarlin-afk
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
